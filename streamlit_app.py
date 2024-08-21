@@ -12,8 +12,8 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 
 #GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 #API 및 Reddit 정보 설정
 GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
